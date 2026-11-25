@@ -74,4 +74,16 @@ OBS can record the whole Screen with: </br>
 Option is only visible when game is Running, Windowed. </br>
 and/or Turn-Off Screen Capture (XSHM) </br>
 
+--------------------------
 
+**Test to see if 32-Bit 3D Vulkan VK Mesa Drivers are installed properly on the system:** </br>
+[Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) [Benchmark](https://benchmark.unigine.com/) for Linux OpenGL. </br>
+32/64-Bit [Heaven-4.0 (2009)](https://benchmark.unigine.com/heaven) Requires to be forced to work at 32-Bit. </br>
+Optional: [Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) </br>
+
+64-bit OS requires to [Enable 32-bit](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu) architecture: </br>
+> sudo dpkg --add-architecture i386 </br>
+
+> $ ./1024x768_windowed.sh </br>
+or... </br>
+> $ ./1920x1080_windowed.sh </br>
