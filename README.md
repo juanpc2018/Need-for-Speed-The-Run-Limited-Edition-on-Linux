@@ -84,10 +84,14 @@ AMD 7600x </br>
 intel i3-12100 </br>
 [ASRock Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) UEFI v9.04 </br>
 
-[X] VSync in the game. </br>
-[X] Vsync in NVIDIA X Settings. </br>
+[_] VSync Dissablen in the game, limits to 30fps. </br>
+[X] Vsync in NVIDIA X Server Settings, does Not affect VK drivers. </br>
 
-WQHD monitor: [LG 34GP64A](https://www.lg.com/us/monitors/lg-34gp63a-b-gaming-monitor) 3440x1440 x 50fps using HDMI & 160fps DisplayPort. </br>
+WQHD monitor: </br>
+[LG 34GP64A](https://www.lg.com/us/monitors/lg-34gp63a-b-gaming-monitor) </br>
+3440x1440 x 50fps using HDMI & 160fps DisplayPort. </br>
+HDMI looks higher quality, more color depth bits, </br>
+DP seems h.264 compressed, requires different color settings. </br>
 
 [Ubuntu 20.04.4](https://old-releases.ubuntu.com/releases/focal/) has a problem with: </br>
 pulseaudio-module-jack = Not recommended for JackAudio. </br>
@@ -106,7 +110,7 @@ is that comes with newer versions of critical software like gcc </br>
 making very dificult to install CURL & Liquorix Kernel = Not Recommended. </br>
 Updating 22.04.1 to .5 Not Recomended. </br>
 
-### Basic Rules: </br>
+### Basic Tips & Rules: </br>
 Games Require Lowlatency Kerner or Liquorix Kernel </br>
 6.3.13-1-liquorix-amd64 #1 ZEN SMP PREEMPT liquorix 6.3-13ubuntu1~focal (2023-08-06) x86_64 x86_64 x86_64 GNU/Linux
 is the last for 20.04.x </br>
@@ -132,7 +136,7 @@ $ sudo apt install --install-recommends winehq-stable
 
 **Test to see if 32-Bit 3D Vulkan VK Mesa Drivers are installed properly on Linux:** </br>
 [Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) [Benchmark](https://benchmark.unigine.com/) for Linux OpenGL. </br>
-32/64-Bit [Heaven-4.0 (2009)](https://benchmark.unigine.com/heaven) Requires to be forced to work at 32-Bit. </br>
+32/64-Bit [Heaven-4.0 (2009)](https://benchmark.unigine.com/heaven) Requires to be forced to run at 32-Bit. </br>
 Optional: [Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) </br>
 
 64-bit OS requires: [Enable 32-bit](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu) architecture: </br>
@@ -144,7 +148,7 @@ or... </br>
 
 -----------------------------
 
-Install DXVK.dlls on Winprefix "Virtual Windows dos_c drive" </br> 
+Install DXVK.dlls on Winprefix "Virtual Windows dos_c drive" from Linux </br> 
 $ export WINEPREFIX=/home/user/.PlayOnLinux/wineprefix/x32_7.9 </br> 
 cd /dxvk-1.10.0
 $ ./setup_dxvk.sh install
