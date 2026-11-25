@@ -2,7 +2,7 @@
 BlackBox version, Frostbyte 2 engine.
 [GOG](https://www.gog.com/dreamlist/game/need-for-speed-the-run-2011) </br>
 
-**The Trick to Run games on Linux is like a [Combination lock](https://en.wikipedia.org/wiki/Combination_lock)...** </br>
+**The Trick to Run games on Linux is like a [Combination Lock](https://en.wikipedia.org/wiki/Combination_lock)...** </br>
 GPU year </br>
 Nvidia Propietary driver version </br>
 Linux version </br>
