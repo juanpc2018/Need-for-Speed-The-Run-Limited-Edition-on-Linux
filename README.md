@@ -12,8 +12,11 @@ Wine version </br>
 
 This guide may Not work on other systems with different configuration, </br>
 that jam the lock. </br>
+**Alternative:** </br>
+PlayStation3 Emulator + The Run PS3 version. </br>
+for [rpcs3](https://rpcs3.net/download) a CPU with AVX512 is recommended. </br>
 
-Game Works at 3440x1440x50fps but requires WideScreen Fix / Patch. </br>
+PC Game Works at 3440x1440x50fps but requires WideScreen Fix / Patch. </br>
 NFS The Run is smart.. </br>
 during intermision screens / menus lowers FPS, to allow GPU to cool down. </br>
 
