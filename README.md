@@ -107,7 +107,7 @@ Depends on GPU & Nvidia propietary driver version: </br>
 
 The problem with .2 .3 .4 [.5](https://web.archive.org/web/20241008203731if_/https://cdimage.ubuntu.com/kubuntu/releases/22.04.5/release/kubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
 is that comes with newer versions of critical software like gcc </br>
-making very dificult to install CURL & Liquorix Kernel = Not Recommended. </br>
+making very dificult to install CURL & [Liquorix Kernel](https://liquorix.net/) = Not Recommended. </br>
 Updating 22.04.1 to .5 Not Recomended. </br>
 
 ### Basic Tips & Rules: </br>
